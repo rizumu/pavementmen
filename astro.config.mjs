@@ -10,7 +10,8 @@ export default defineConfig({
       theme: "dark-plus",
     },
   },
-  site: "https://barebones.superwebthemes.com",
+  site: "https://pavementmen.github.io",
+  base: "/pavementmen",
   vite: {
     plugins: [tailwindcss()],
   },
