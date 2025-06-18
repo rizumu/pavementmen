@@ -1,24 +1,20 @@
 {
   "main": [
     {
-      "name": "About Us",
-      "url": "/about"
+      "name": "Parking Lots",
+      "url": "/parking-lots"
     },
     {
-      "name": "Services",
-      "url": "/services"
-    },
-    {
-      "name": "Gallery",
-      "url": "/gallery"
-    },
-    {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Recreational Courts",
+      "url": "/recreational-courts"
     },
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "History/Clients",
+      "url": "/history-clients"
     }
   ],
   "footer": [
@@ -30,20 +26,12 @@
           "url": "/"
         },
         {
-          "name": "Services",
-          "url": "/services"
-        },
-        {
-          "name": "About Us",
-          "url": "/about"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Contacts",
+          "name": "Contact",
           "url": "/contact"
+        },
+        {
+          "name": "History & Clients",
+          "url": "/history-clients"
         }
       ]
     },
@@ -51,20 +39,12 @@
       "title": "Services",
       "children": [
         {
-          "name": "Home Cleaning",
-          "url": "/services/home-cleaning"
+          "name": "Parking Lots",
+          "url": "/parking-lots"
         },
         {
-          "name": "Window Cleaning",
-          "url": "/services/window-cleaning"
-        },
-        {
-          "name": "Pest Control",
-          "url": "/services/pest-control"
-        },
-        {
-          "name": "Floor Cleaning",
-          "url": "/services/floor-cleaning"
+          "name": "Recreational Courts",
+          "url": "/recreational-courts"
         }
       ]
     }
