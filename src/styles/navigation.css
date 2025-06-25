@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  @apply text-text text-base hover:text-primary block transition p-3 lg:px-2 lg:py-3;
+  @apply text-secondary text-base hover:text-accent block transition p-3 lg:px-2 lg:py-3;
 
   &.active {
     @apply text-primary;
