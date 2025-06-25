@@ -12,12 +12,12 @@ why_us:
       label: "Call: 484-249-1616"
       link: "tel:+1-484-249-1616"
 
-    image: "/images/parking-lots/1.jpg"
-    overlay_image: "/images/parking-lots/overlay.png"
+    image: "/images/about/1.png"
+    overlay_image: "/images/about/overlay.png"
 
   - title: "Crack repair"
     subtitle: "WHY CHOOSE US"
-    image: "/images/about/2.jpg"
+    image: "/images/about/2.png"
     bullet_points:
       - "Highly Rated & Esteemed"
       - "We are Committed"
@@ -30,9 +30,9 @@ pride:
   subtitle: "OUR PRIDE"
   content: "Using a high grade, hot applied rubberized sealant, crack filling is the first step in extending the life of your blacktop surfaces. We provide clean, professional work that restores integrity to your blacktop surface that adheres to the surrounding pavement to keep water out."
   images:
-    - "/images/parking-lots/3.jpg"
-    - "/images/parking-lots/4.jpg"
-    - "/images/parking-lots/5.jpg"
+    - "/images/about/3.png"
+    - "/images/about/4.png"
+    - "/images/about/5.png"
 
 team:
   enable: false
@@ -41,11 +41,11 @@ team:
   members:
     - name: "Will"
       designation: "Owner"
-      image: "/images/parking-lots/member/1.png"
+      image: "/images/about/member/1.png"
     - name: "Anthony"
       designation: "Owner"
-      image: "/images/parking-lots/member/3.png"
+      image: "/images/about/member/3.png"
     - name: "Brendan"
       designation: "Owner"
-      image: "/images/parking-lots/member/2.png"
+      image: "/images/about/member/2.png"
 ---
