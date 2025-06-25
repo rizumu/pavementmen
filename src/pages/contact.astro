@@ -1,8 +1,8 @@
 ---
-import CustomButton from "@/components/CustomButton.astro";
+// import CustomButton from "@/components/CustomButton.astro";
 import CustomHeading from "@/components/CustomHeading.astro";
 import ImageMod from "@/components/ImageMod.astro";
-import config from "@/config/config.json";
+// import config from "@/config/config.json";
 import DynamicIcon from "@/helpers/DynamicIcon";
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -13,7 +13,7 @@ const contact = (await getEntry(
   "contact",
   "-index"
 )) as CollectionEntry<"contact">;
-const { contact_form_action }: { contact_form_action: string } = config.params;
+// const { contact_form_action }: { contact_form_action: string } = config.params;
 const { title, subtitle, description, meta_title, contact_way, image } = contact.data;
 
 const cta = (await getEntry(

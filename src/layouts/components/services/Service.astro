@@ -1,5 +1,5 @@
 ---
-import DynamicIcon from "@/helpers/DynamicIcon";
+// import DynamicIcon from "@/helpers/DynamicIcon";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 import CustomHeading from "../CustomHeading.astro";
@@ -10,7 +10,7 @@ type Props = {
   hero?: boolean;
 };
 
-const { serviceIndex, allServices, hero } = Astro.props;
+const { serviceIndex, hero } = Astro.props;  // allServices,
 ---
 
 <section class={`section ${hero && "mt-24 sm:mt-20"} ${!hero && "pt-0"}`}>

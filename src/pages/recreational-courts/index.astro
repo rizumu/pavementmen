@@ -1,5 +1,5 @@
 ---
-import Pride from "@/components/about/Pride.astro";
+// import Pride from "@/components/about/Pride.astro";
 import Team from "@/components/about/Team.astro";
 import WhyUs from "@/components/about/WhyUs.astro";
 import CustomHeading from "@/components/CustomHeading.astro";
@@ -13,7 +13,7 @@ const recreationalcourtsIndex = (await getEntry(
   "recreationalcourts",
   "-index"
 )) as CollectionEntry<"recreationalcourts">;
-const { title, subtitle, description, meta_title, why_us, pride, team } =
+const { title, subtitle, description, meta_title, why_us, team } =  // pride,
   recreationalcourtsIndex.data;
 
 const callToAction = (await getEntry(

@@ -1,5 +1,5 @@
 ---
-import Pride from "@/components/about/Pride.astro";
+// import Pride from "@/components/about/Pride.astro";
 import Team from "@/components/about/Team.astro";
 import WhyUs from "@/components/about/WhyUs.astro";
 import CustomHeading from "@/components/CustomHeading.astro";
@@ -12,8 +12,8 @@ import { getEntry } from "astro:content";
 const parkinglotsIndex = (await getEntry(
   "parkinglots",
   "-index"
-)) as CollectionEntry<"parkingLots">;
-const { title, subtitle, description, meta_title, why_us, pride, team } =
+)) as CollectionEntry<"parkinglots">;
+const { title, subtitle, description, meta_title, why_us, team } =  // pride,
   parkinglotsIndex.data;
 
 const callToAction = (await getEntry(
