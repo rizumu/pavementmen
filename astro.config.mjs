@@ -24,7 +24,13 @@ export default defineConfig({
   trailingSlash: config.site.trailing_slash ? "always" : "never",
 
   image: { service: sharp() },
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    ssr: {
+      // Add npm packages containing invalid code here
+      noExternal: ["react-lite-youtube-embed"],
+    },
+  },
   integrations: [
     react(),
     sitemap(),
