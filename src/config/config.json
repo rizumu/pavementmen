@@ -3,7 +3,7 @@
     "title": "PMS",
     "base_url": "https://pavementmen.com/",
     "base_path": "/",
-    "trailing_slash": false,
+    "trailing_slash": true,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
     "footer_logo": "/images/logo.svg",
@@ -32,9 +32,9 @@
   },
 
   "navigation_button": {
-    "enable": true,
-    "label": "Get an Estimate ",
-    "link": "/appointment"
+    "enable": false,
+    "label": "Schedule an Estimate ",
+    "link": "/contact/"
   },
 
   "metadata": {

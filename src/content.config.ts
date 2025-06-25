@@ -165,6 +165,12 @@ const contactCollection = defineCollection({
     meta_title: z.string().optional(),
     description: z.string().optional(),
     image: z.string().optional(),
+    contact_way: z.array(
+      z.object({
+        icon: z.string(),
+        value: z.string(),
+      })
+    ),
   }),
 });
 

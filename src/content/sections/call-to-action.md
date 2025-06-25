@@ -11,5 +11,5 @@ buttons:
 
   - enable: true
     label: "Schedule an Estimate"
-    link: "appointment"
+    link: "/contact/"
 ---

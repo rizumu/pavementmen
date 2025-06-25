@@ -9,7 +9,7 @@ hero:
       icon: "FaPhone"
     - enable: true
       label: "Schedule an Estimate"
-      link: "appointment"
+      link: "/contact/"
   image: "/images/home/banner.jpg"
   reviews:
     - name: "SealMaster Logo"
@@ -20,7 +20,7 @@ hero:
 about:
   enable: true
   title: "Your **trust** is our main priority"
-  subtitle: "WHO ARE WE"
+  subtitle: "OUR COMMITMENT"
   content: "Each member of our installation team has extensive experience; our installers range from the least experienced installer with over 15 years repairing pavement and recreation courts to our most senior installer with over 20 years experience."
   schedule:
     - day: MON-FRI

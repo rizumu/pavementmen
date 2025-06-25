@@ -2,19 +2,19 @@
   "main": [
     {
       "name": "Parking Lots",
-      "url": "/parking-lots"
+      "url": "/parking-lots/"
     },
     {
       "name": "Recreational Courts",
-      "url": "/recreational-courts"
+      "url": "/recreational-courts/"
     },
     {
       "name": "Contact",
-      "url": "/contact"
+      "url": "/contact/"
     },
     {
       "name": "History/Clients",
-      "url": "/history-clients"
+      "url": "/history-clients/"
     }
   ],
   "footer": [
@@ -27,11 +27,11 @@
         },
         {
           "name": "Contact",
-          "url": "/contact"
+          "url": "/contact/"
         },
         {
           "name": "History & Clients",
-          "url": "/history-clients"
+          "url": "/history-clients/"
         }
       ]
     },
@@ -40,11 +40,11 @@
       "children": [
         {
           "name": "Parking Lots",
-          "url": "/parking-lots"
+          "url": "/parking-lots/"
         },
         {
           "name": "Recreational Courts",
-          "url": "/recreational-courts"
+          "url": "/recreational-courts/"
         }
       ]
     }
