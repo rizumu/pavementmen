@@ -20,8 +20,7 @@ async function getHighlighter() {
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://rizumu.github.io/pavementmen",
-  //base: config.site.base_path ? config.site.base_path : "/pavementmen",
+  site: config.site.base_url ? config.site.base_url : "http://rizumu.github.io",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
 
   image: { service: sharp() },
