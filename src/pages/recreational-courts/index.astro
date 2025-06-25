@@ -9,12 +9,12 @@ import CallToAction from "@/partials/CallToAction.astro";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 
-const aboutIndex = (await getEntry(
-  "about",
+const recreationalcourtsIndex = (await getEntry(
+  "recreationalcourts",
   "-index"
-)) as CollectionEntry<"about">;
+)) as CollectionEntry<"recreationalcourts">;
 const { title, subtitle, description, meta_title, why_us, pride, team } =
-  aboutIndex.data;
+  recreationalcourtsIndex.data;
 
 const callToAction = (await getEntry(
   "ctaSection",
@@ -51,7 +51,7 @@ const callToAction = (await getEntry(
   </section>
 
   <WhyUs why_us={why_us} />
-  <Pride pride={pride} />
+  <!-- <Pride pride={pride} /> -->
   {team.enable && <Team team={team} />}
 
   <CallToAction cta={callToAction.data} />

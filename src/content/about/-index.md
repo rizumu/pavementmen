@@ -5,7 +5,7 @@ description: "Parking Lot Services"
 subtitle: "PARKING LOTS"
 
 why_us:
-  - title: "Sealcoating"
+  - title: "ABOUT Sealcoating"
     content: "We use a premium blend of emulsions to give you a deep durable finish and maximize the lifespan of your parking lots and blacktop areas, shielding them from water, oil, UV, and wear and tear damage. Our attention to detail and commitment to excellence will leave you with a clean, beautiful surface that we guarantee for 4 years."
     button:
       enable: true

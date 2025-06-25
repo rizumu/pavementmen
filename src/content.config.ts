@@ -1,6 +1,101 @@
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
+const parkinglotsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/parking-lots" }),
+  schema: z.object({
+    title: z.string().optional(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    subtitle: z.string().optional(),
+    why_us: z.array(
+      z.object({
+        title: z.string().optional(),
+        content: z.string().optional(),
+        button: z
+          .object({
+            enable: z.boolean(),
+            label: z.string(),
+            link: z.string(),
+            icon: z.string().optional(),
+            type: z.string().optional(),
+          })
+          .optional(),
+        image: z.string().optional(),
+        bullet_points: z.array(z.string()).optional(),
+        subtitle: z.string().optional(),
+        overlay_image: z.string().optional(),
+      })
+    ),
+    pride: z.object({
+      title: z.string().optional(),
+      subtitle: z.string().optional(),
+      content: z.string(),
+      images: z.array(z.string()),
+    }),
+    team: z.object({
+      enable: z.boolean(),
+      title: z.string().optional(),
+      subtitle: z.string().optional(),
+      members: z.array(
+        z.object({
+          name: z.string(),
+          designation: z.string(),
+          image: z.string(),
+        })
+      ),
+    }),
+  }),
+});
+
+const recreationalcourtsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/recreational-courts" }),
+  schema: z.object({
+    title: z.string().optional(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    subtitle: z.string().optional(),
+    why_us: z.array(
+      z.object({
+        title: z.string().optional(),
+        content: z.string().optional(),
+        button: z
+          .object({
+            enable: z.boolean(),
+            label: z.string(),
+            link: z.string(),
+            icon: z.string().optional(),
+            type: z.string().optional(),
+          })
+          .optional(),
+        image: z.string().optional(),
+        bullet_points: z.array(z.string()).optional(),
+        subtitle: z.string().optional(),
+        overlay_image: z.string().optional(),
+      })
+    ),
+    pride: z.object({
+      title: z.string().optional(),
+      subtitle: z.string().optional(),
+      content: z.string(),
+      images: z.array(z.string()),
+    }),
+    team: z.object({
+      enable: z.boolean(),
+      title: z.string().optional(),
+      subtitle: z.string().optional(),
+      members: z.array(
+        z.object({
+          name: z.string(),
+          designation: z.string(),
+          image: z.string(),
+        })
+      ),
+    }),
+  }),
+});
+
+
 const aboutCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/about" }),
   schema: z.object({
@@ -242,6 +337,8 @@ const servicesCollection = defineCollection({
 });
 
 export const collections = {
+  parkinglots: parkinglotsCollection,
+  recreationalcourts: recreationalcourtsCollection,
   about: aboutCollection,
   blog: blogCollection,
   contact: contactCollection,

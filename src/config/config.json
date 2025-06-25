@@ -19,13 +19,13 @@
   "params": {
     "contact_form_action": "#",
     "appointment_form_action": "#",
-    "footer_description": "Using the latest in industry <br> leading methods and materials.",
+    "footer_description": "We provide the **highest in quality** <br> workmanship, durability, and safety.",
     "copyright": " © 2025 All Rights Reserved"
   },
 
   "notification": {
     "enable": true,
-    "message": "Time for maintenance services?",
+    "message": "Time for maintenance?",
     "link": "tel:+1-484-249-5993",
     "label": "Call Us: (484) 249-1616",
     "icon": "FaPhone"
@@ -33,7 +33,7 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Make An Appointment ",
+    "label": "Get an Estimate ",
     "link": "/appointment"
   },
 
