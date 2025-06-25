@@ -114,9 +114,7 @@ pride:
   subtitle: "OUR PRIDE"
   content: "Using a high grade, hot applied rubberized sealant, crack filling is the first step in extending the life of your blacktop surfaces. We provide clean, professional work that restores integrity to your blacktop surface that adheres to the surrounding pavement to keep water out."
   images:
-    - "/images/recreational-courts/3.jpg"
-    - "/images/recreational-courts/4.jpg"
-    - "/images/recreational-courts/5.jpg"
+    - ""
 
 team:
   enable: false
