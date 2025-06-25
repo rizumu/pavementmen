@@ -1,13 +1,14 @@
 ---
-title: "We provide our best <br> cleaning **services**"
+title: "RECREACTIONAL COURT SERVICES"
 homepage_section_enable: true
-home_title: "We provide our best <br> **cleaning** services for you"
+home_title: "We provide premium <br> parking lot and <br> **recreational court** services"
 meta_title: ""
 description: "this is service page"
-subtitle: "HIGHEST LEVEL OF SERVICE"
+subtitle: "EXPERT LINE STRIPING, SEALCOATING & CRACK FILL "
 descriptions:
-  - "Our company provides a wide range of cleaning services, from home cleaning to office cleaning. We use only advanced technologies to keep your room looking the best."
-  - "Our team of experts who have been in the profession for years focuses on helping you achieve optimal clean surface."
+  - "Based in the Lehigh Valley, we have over 40 years of experience delivering premium sports surface and blacktop coating solutions to hundreds of satisfied customers."
+  - "Whether you’re resurfacing a school tennis or basketball court, coating a municipal pickleball court, or crack filling and sealcoating your parking lot, we’ll be there to provide you with the highest in quality workmanship, durability, and safety."
+  - "Using the latest in industry leading methods and materials, we strive to deliver you a vibrant long-lasting surface to help you take your game to the next level."
 
 process:
   title: "The process we have been doing <br> for **over 25 years** of service"

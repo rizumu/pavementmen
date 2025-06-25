@@ -1,12 +1,12 @@
 ---
-title: "Pest <br> Control"
+title: "Color <br> Coatings"
 meta_title: ""
 description: "this is meta descriptio"
-icon: "FaSprayCan"
-banner: "/images/service/3.png"
+icon: "FaFillDrip"
+banner: "/images/service/2.png"
 date: 2025-04-04T05:00:00Z
 categories: ["Kitchen"]
-weight: 3
+weight: 1
 draft: false
 ---
 

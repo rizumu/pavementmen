@@ -5,13 +5,15 @@ import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
 import type { CollectionEntry } from "astro:content";
-import { getEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
 
 const gallery = (await getEntry(
   "gallery",
   "-index"
 )) as CollectionEntry<"gallery">;
 const { title, subtitle, meta_title, description, images } = gallery.data;
+
+const { Content } = await render(gallery);
 
 const callToAction = (await getEntry(
   "ctaSection",
@@ -45,6 +47,9 @@ const callToAction = (await getEntry(
         }
       </div>
 
+  <div class="content">
+    <Content />
+  </div>
       <div data-aos="fade-up-sm" data-aos-delay="150">
         <ImageGallery images={images} client:load />
       </div>

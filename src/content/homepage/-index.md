@@ -1,60 +1,59 @@
 ---
 hero:
-  title: "Professional **Cleaning** <br> Services in Auburn."
-  subtitle: "AWARD WINNING CLEANING SERVICE COMPANY"
+  title: "PAVEMENT <br> MAINTENANCE <br> **SERVICES**"
+  subtitle: "EMPLOYEE OWNED AND OWNER OPERATED"
   buttons:
     - enable: true
-      label: "Call: +1-394-495-5993"
-      link: "tel:+1-394-495-5993"
+      label: "Call: 484-249-1616"
+      link: "tel:+1-484-249-1616"
       icon: "FaPhone"
     - enable: true
-      label: "Make An Appointment"
+      label: "Schedule an Estimate"
       link: "appointment"
-  image: "/images/home/banner.png"
+  image: "/images/home/banner.jpg"
   reviews:
-    - name: "Company Logo with star ratings"
-      company_logo: "/images/home/2.svg"
-      rating: 4.7
-    - name: "Company Logo with star ratings"
-      company_logo: "/images/home/1.svg"
-      rating: 4.8
+    - name: "SealMaster Logo"
+      company_logo: "/images/home/sealmaster-logo.png"
+    - name: "SportMaster Logo"
+      company_logo: "/images/home/sportmaster-logo.png"
 
 about:
   enable: true
-  title: "Your **comfort** is our main priority"
+  title: "Your **trust** is our main priority"
   subtitle: "WHO ARE WE"
-  content: "We appreciate your trust greatly. Our patients choose our clinic because they know we are the best in the field."
+  content: "Each member of our installation team has extensive experience; our installers range from the least experienced installer with over 15 years repairing pavement and recreation courts to our most senior installer with over 20 years experience."
   schedule:
     - day: MON-FRI
-      time: 9 AM – 22 PM
+      time: 9 AM – 6 PM
     - day: SATURDAY
-      time: 9 AM – 20 PM
+      time: 9 AM – 6 PM
   button:
     enable: true
-    label: "Call: +1-394-495-5993"
-    link: "tel:+1-394-495-5993"
+    label: "Call: 484-249-1616"
+    link: "tel:+1-484-249-1616"
   badge: "/images/home/about/badge.svg"
   images:
-    - "/images/home/about/1.avif"
-    - "/images/home/about/2.avif"
+    - "/images/home/about/1.jpg"
+    - "/images/home/about/2.jpg"
 
 responsibility:
-  enable: true
+  enable: false
   title: "**Best cleaning** <br> company in the town"
   subtitle: "WHAT WE DO"
-  content: "Our professional dental clinic offers the whole range of <br> dentistry services: treatment of caries, gum diseases, <br> tooth whitening, implantation, dentures, h whitening, <br> implantation, dentures surgery, etc."
+  content: "We repair and upgrade parking lots by filling cracks, <br> patching blacktop, seal coating and line striping. From paving, to patching, crack filling, pothole repair, seal coating, asphalt repair, milling, site preparation and speed bumps-We have your asphalt needs covered."
   image: "/images/home/responsibility/1.png"
   video:
     thumbnail: "/images/home/responsibility/thumb.webp"
     url: "https://www.youtube.com/embed/dyZcRRWiuuw?autoplay=1&mute=0"
   job:
     - title: "Service and guarantees"
-      content: "We will provide you with the best possible care in an atmosphere of comfort and compassion."
+      content: "All our work is under warranty so you never have to worry if the job will be done right. Our attention to detail and commitment to excellence will leave you with a clean,
+beautiful surface that we guarantee and warranty for 4 years."
     - title: "Team of professionals"
-      content: "We will eliminate the chance of multiple visits by delivering the premium quality service."
+      content: "We are on-call to meet your pavement repairs and coatings needs with fast professional service."
 
 customer:
-  enable: true
+  enable: false
   title:
     value: "4035"
     text: "Happy Customers & Counting"
@@ -65,7 +64,7 @@ customer:
     - "/images/home/review/client/4.svg"
 
 testimonial:
-  enable: true
+  enable: false
   review:
     - name: "Jack Morrison"
       about: "36 y, New York"
@@ -81,7 +80,7 @@ testimonial:
       says: "Cleaner is the best service i have ever get provides a wide range of cleaning services, from home cleaning to office cleaning. They used advanced technologies to keep our room looking the best. <br> <br> Their team of experts who have been in the profession for years focuses on helped us achieve optimal clean surface."
 
 blog:
-  enable: true
+  enable: false
   title: "Our **latest news** from blog"
   subtitle: "RECENT POSTS"
 ---

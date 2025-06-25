@@ -1,12 +1,12 @@
 ---
-title: "Floor <br> Cleaning"
+title: "Specialty <br> Coatings"
 meta_title: ""
 description: "this is meta descriptio"
-icon: "FaRegWindowMaximize"
-banner: "/images/service/6.png"
+icon: "FaSprayCan"
+banner: "/images/service/5.png"
 date: 2025-04-04T05:00:00Z
 categories: ["Kitchen"]
-weight: 4
+weight: 2
 draft: false
 ---
 

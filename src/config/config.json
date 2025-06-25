@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Cleaner - Tailwind Astro Theme",
-    "base_url": "https://cleaner-astro.netlify.app/",
+    "title": "PMS",
+    "base_url": "https://pavementmen.com/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo-dark.svg",
+    "logo": "/images/logo.svg",
     "footer_logo": "/images/logo.svg",
-    "logo_width": "142",
-    "logo_height": "36",
-    "logo_text": "cleaner"
+    "logo_width": "453",
+    "logo_height": "67",
+    "logo_text": "PMS"
   },
 
   "settings": {
@@ -19,15 +19,15 @@
   "params": {
     "contact_form_action": "#",
     "appointment_form_action": "#",
-    "footer_description": "Professional cleaning services <br> using innovative technology.",
-    "copyright": "[Themefisher](https://themefisher.com/) © 2025 All Rights Reserved"
+    "footer_description": "Using the latest in industry <br> leading methods and materials.",
+    "copyright": " © 2025 All Rights Reserved"
   },
 
   "notification": {
     "enable": true,
-    "message": "Need quick cleaning help?",
-    "link": "tel:+1-394-495-5993",
-    "label": "Call Us: +1 071 281 9795",
+    "message": "Time for maintenance services?",
+    "link": "tel:+1-484-249-5993",
+    "label": "Call Us: (484) 249-1616",
     "icon": "FaPhone"
   },
 
@@ -38,8 +38,8 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "PMS",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Sass theme for Astro"
+    "meta_description": "PMS theme for Astro"
   }
 }

@@ -90,7 +90,7 @@ const appointmentCollection = defineCollection({
 });
 
 const galleryCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/gallery" }),
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/history-clients" }),
   schema: z.object({
     title: z.string().optional(),
     subtitle: z.string().optional(),
@@ -122,7 +122,6 @@ const homepageCollection = defineCollection({
         z.object({
           name: z.string(),
           company_logo: z.string(),
-          rating: z.number(),
         })
       ),
     }),

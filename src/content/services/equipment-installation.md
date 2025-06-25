@@ -1,12 +1,12 @@
 ---
-title: "House <br> Cleaning"
+title: "Equipment <br> Installation"
 meta_title: ""
 description: "this is meta descriptio"
-icon: "FaHouseChimneyWindow"
-banner: "/images/service/2.png"
+icon: "FaBasketball"
+banner: "/images/service/5.png"
 date: 2025-04-04T05:00:00Z
 categories: ["Kitchen"]
-weight: 1
+weight: 2
 draft: false
 ---
 

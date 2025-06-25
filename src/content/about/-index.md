@@ -1,23 +1,23 @@
 ---
-title: "We are a cleaning service <br> company with **expert team**"
+title: "We provide the **highest in quality** workmanship, durability, and safety."
 meta_title: ""
-description: "this is about page"
-subtitle: "ABOUT US"
+description: "Parking Lot Services"
+subtitle: "PARKING LOTS"
 
 why_us:
-  - title: "You can depend on us <br> to get a **good services**"
-    content: "Our clinic provides a wide range of oral care services checkup to fitting braces. We use only advanced technologies to keep your smile looking the best."
+  - title: "Sealcoating"
+    content: "We use a premium blend of emulsions to give you a deep durable finish and maximize the lifespan of your parking lots and blacktop areas, shielding them from water, oil, UV, and wear and tear damage. Our attention to detail and commitment to excellence will leave you with a clean, beautiful surface that we guarantee for 4 years."
     button:
       enable: true
-      label: "Call: +1-394-495-5993"
-      link: "tel:+1-394-495-5993"
+      label: "Call: 484-249-1616"
+      link: "tel:+1-484-249-1616"
 
-    image: "/images/about/1.png"
-    overlay_image: "/images/about/overlay.png"
+    image: "/images/parking-lots/1.jpg"
+    overlay_image: "/images/parking-lots/overlay.png"
 
-  - title: "Your **happiness** is <br> our first priority"
+  - title: "Crack repair"
     subtitle: "WHY CHOOSE US"
-    image: "/images/about/2.png"
+    image: "/images/about/2.jpg"
     bullet_points:
       - "Highly Rated & Esteemed"
       - "We are Committed"
@@ -26,29 +26,26 @@ why_us:
       - "Trusted Professionals"
 
 pride:
-  title: "We are **recognized** award <br> winning company"
+  title: "Blacktop Repair"
   subtitle: "OUR PRIDE"
-  content: "Our clinic provides a wide range of oral care services, from checkups to fitting braces. We use only advanced technologies to keep your smile looking the best."
+  content: "Using a high grade, hot applied rubberized sealant, crack filling is the first step in extending the life of your blacktop surfaces. We provide clean, professional work that restores integrity to your blacktop surface that adheres to the surrounding pavement to keep water out."
   images:
-    - "/images/about/3.png"
-    - "/images/about/4.png"
-    - "/images/about/5.png"
+    - "/images/parking-lots/3.jpg"
+    - "/images/parking-lots/4.jpg"
+    - "/images/parking-lots/5.jpg"
 
 team:
-  enable: true
-  title: "We have the **best team** <br> to serve you"
+  enable: false
+  title: "Striping and Traffic Controls"
   subtitle: "OUR AWESOME TEAM"
   members:
-    - name: "Brandon Copperfield"
-      designation: "Cleaning Manager"
-      image: "/images/about/member/1.png"
-    - name: "Jim Sochon"
-      designation: "Head in Plumbing"
-      image: "/images/about/member/3.png"
-    - name: "Ashley Hardy"
-      designation: "Cleaning Staff"
-      image: "/images/about/member/2.png"
-    - name: "Barry Allen"
-      designation: "Cleaning Staff"
-      image: "/images/about/member/4.png"
+    - name: "Will"
+      designation: "Owner"
+      image: "/images/parking-lots/member/1.png"
+    - name: "Anthony"
+      designation: "Owner"
+      image: "/images/parking-lots/member/3.png"
+    - name: "Brendan"
+      designation: "Owner"
+      image: "/images/parking-lots/member/2.png"
 ---
