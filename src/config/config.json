@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "PMS",
+    "title": "Pavement Maintenace Services",
     "base_url": "https://pavementmen.com/",
     "base_path": "/",
     "trailing_slash": true,
@@ -9,7 +9,7 @@
     "footer_logo": "/images/logo.svg",
     "logo_width": "453",
     "logo_height": "67",
-    "logo_text": "PMS"
+    "logo_text": "Pavement Maintenace Services"
   },
 
   "settings": {
@@ -38,8 +38,8 @@
   },
 
   "metadata": {
-    "meta_author": "PMS",
+    "meta_author": "Pavement Maintenace Services",
     "meta_image": "/images/og-image.png",
-    "meta_description": "PMS theme for Astro"
+    "meta_description": "Pavement Maintenace Services theme"
   }
 }
