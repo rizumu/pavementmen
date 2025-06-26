@@ -10,7 +10,7 @@ contact_way:
     value: "(484) 249-1616"
   - name: "Location"
     icon: "FaLocationDot"
-    value: "Pavement Maintenance Services LLC <br> 1014 Center Street, Suite 202 <br> Bethlehem, PA 18018"
+    value: "Pavement Maintenance Services LLC <br> 1014 Center Street, Suite 202 <br> Bethlehem, PA 18018 <br>&nbsp;&nbsp;<br> (Meetings By Appointment Only)"
   - name: "Time"
     icon: "FaClock"
     value: "Mon-Fri: 9 AM – 6 PM <br> Sat-Sun: 9 AM – 4 PM"
