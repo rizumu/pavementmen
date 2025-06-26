@@ -1,7 +1,7 @@
 {
-  "name": "Pavement Maintenance Services",
+  "name": "Pavement Maintenance",
   "version": "1.0.0",
-  "description": "Pavement Maintenance Services",
+  "description": "Pavement Maintenance",
   "packageManager": "pnpm@10.12.1",
   "scripts": {
     "dev": "astro dev",
