@@ -1,8 +1,8 @@
 ---
 enable: true
 title: "Discuss our services and <br> request a **free** evaluation/proposal"
-subtitle: "CONTACT US"
-content: "If you’re looking for clean, crisp pavement striping, don’t hesitate. <br> We offer free estimates and have an established reputation for our top quality work."
+subtitle: "GET IN TOUCH"
+content: "If you want a fresh professional parking lot or recreational court, contact us. <br> We offer free estimates and have established a reputation for excellent work."
 image: "/images/cta.png"
 buttons:
   - enable: true
