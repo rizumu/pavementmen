@@ -3,8 +3,8 @@ title: "RECREACTIONAL COURT SERVICES"
 homepage_section_enable: true
 home_title: "We provide premium <br> parking lot and <br> **recreational court** services"
 meta_title: ""
-description: "this is service page"
-subtitle: "OUR PROCESS"
+description: "our service"
+subtitle: "OUR SERVICE"
 descriptions:
   - "Based in the Lehigh Valley, we have over 40 years of experience delivering premium sports surface and blacktop coating solutions to hundreds of satisfied customers."
   - "Whether you’re resurfacing a school tennis or basketball court, coating a municipal pickleball court, or crack filling and sealcoating your parking lot, we’ll be there to provide you with the highest in quality workmanship, durability, and safety."
