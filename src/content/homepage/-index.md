@@ -1,7 +1,7 @@
 ---
 hero:
   title: "PAVEMENT <br> MAINTENANCE <br> **SERVICES**"
-  subtitle: "EMPLOYEE OWNED AND OWNER OPERATED"
+  subtitle: "EMPLOYEE OWNED AND OPERATED"
   buttons:
     - enable: true
       label: "Call: 484-249-1616"

@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Discuss our services or <br> request an **estimate**"
+title: "Discuss our services and <br> request an **estimate**"
 subtitle: "CONTACT US"
 content: "If you’re looking for clean, crisp pavement striping, don’t hesitate. <br> We offer free estimates and have an established reputation for our top quality work."
 image: "/images/cta.png"
