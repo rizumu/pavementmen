@@ -11,7 +11,7 @@ const { hero }: Props = Astro.props;
 ---
 
 <section
-  class="section relative mb-22"
+  class="section relative lg:mb-22"
   style={`background-image: url('${hero.image}'); background-size: cover; background-position: center;`}>
   <div class="container pt-24 sm:pt-20 pb-[280px] lg:pb-[228px] relative z-20">
     <p
@@ -50,7 +50,7 @@ const { hero }: Props = Astro.props;
     </div>
   </div>
 
-  <div class="absolute z-30 top-180 left-5 w-full">
+  <div class="absolute z-30 top-160 lg:top-180 w-full">
     <div class="container">
       <div
         class="flex flex-col md:flex-row items-center lg:justify-start justify-center gap-14 py-10">
