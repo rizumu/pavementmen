@@ -18,7 +18,7 @@ const { services } = Astro.props;
 
         <div class="row gy-3 justify-center md:justify-between items-center">
 
-          <!-- Dynamic device switch: hidden for tailwindcss sizes lg and greater -->
+          <!-- Mobile: hidden for tailwindcss sizes lg and greater -->
           {v.subtitle && (
             <p
               class="text-primary text-balance text-center md:text-left lg:hidden text-base-sm"
@@ -35,7 +35,7 @@ const { services } = Astro.props;
               dataAosDelay="60"
             />
           )}
-          <!-- End Switch -->
+          <!-- End Mobile -->
 
           <div class={`col-12 md:col-6 md:w-[44%] ${i % 2 !== 0 ? "lg:order-2 lg:order-1" : ""}`}>
             <div class="relative">
@@ -64,7 +64,7 @@ const { services } = Astro.props;
 
           <div class={`col-12 md:col-6 md:w-[53%] xl:w-[42%] ${i % 2 === 0 ? "lg:order-1 lg:order-2" : ""}`}>
 
-            <!-- Dynamic device switch: hidden for tailwindcss sizes up to md -->
+            <!-- Desktop: hidden for tailwindcss sizes up to md -->
             {v.subtitle && (
               <p
                 class="text-primary text-balance text-center md:text-left text-base-sm mb-6 max-md:hidden"
@@ -81,7 +81,7 @@ const { services } = Astro.props;
                 dataAosDelay="60"
               />
             )}
-            <!-- End switch -->
+            <!-- End Desktop -->
 
             {v.content && (
               <p
