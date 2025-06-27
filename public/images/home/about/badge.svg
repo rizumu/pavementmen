@@ -1,4 +1,49 @@
-<svg class="transform-origin-center-center" style="width: 100%; height: 100%; position: absolute; inset: 0px; transform-origin: center center; will-change: transform; transform: rotate(200.934deg);" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" overflow="visible"><path id="curve-wnxkz4" d="M 0 50 L 0 50 A 1 1 0 0 1 100 50 L 100 50 L 100 50 A 1 1 0 0 1 0 50 L 0 50" stroke-width="none" fill="transparent"></path><text><textPath href="#curve-wnxkz4" startOffset="0" dominant-baseline="Hanging" style="font-size:9px;font-family:Inter;font-weight:600;word-spacing:0;letter-spacing:2.1px;fill:var(--token-1417d511-8ecc-4b69-a760-9a970018d3e9, rgb(14, 13, 57))">ABOUT US -
-ABOUT US -
-ABOUT US -
-ABOUT US -</textPath></text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="transform-origin-center-center"
+   style="width: 100%; height: 100%; position: absolute; inset: 0px; transform-origin: center center; will-change: transform; transform: rotate(200.934deg);"
+   viewBox="0 0 100 100"
+   overflow="visible"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="badge.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.32"
+     inkscape:cx="49.939904"
+     inkscape:cy="50"
+     inkscape:window-width="2560"
+     inkscape:window-height="1379"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     id="curve-wnxkz4"
+     d="M 0 50 L 0 50 A 1 1 0 0 1 100 50 L 100 50 L 100 50 A 1 1 0 0 1 0 50 L 0 50"
+     stroke-width="none"
+     fill="transparent"
+     style="fill:#fad029;fill-opacity:1" />
+  <text
+     id="text1"
+     style="fill:#fad029;fill-opacity:1"><textPath
+       href="#curve-wnxkz4"
+       startOffset="0"
+       dominant-baseline="Hanging"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.9px;font-family:'Thunderbold Serif';-inkscape-font-specification:'Thunderbold Serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:2.1px;word-spacing:0;fill:#fad029;fill-opacity:1"
+       id="textPath1">ABOUT US -ABOUT US -ABOUT US -ABOUT US -</textPath></text>
+</svg>
