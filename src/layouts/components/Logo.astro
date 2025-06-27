@@ -22,10 +22,10 @@ const {
   {
     src || logo ? (
       <>
-        <!-- Mobile: hidden for tailwindcss sizes lg and greater -->
+        <!-- Mobile: hidden for tailwindcss sizes md and greater -->
         <ImageMod
           src={src ? src : logo}
-          class={`inline-block object-fill lg:hidden`}
+          class={`inline-block object-fill md:hidden`}
           width={logo_width.replace("px", "") * 2}
           height={logo_height.replace("px", "") * 2}
           alt={title}
@@ -36,7 +36,7 @@ const {
           loading={"eager"}
           format="webp"
         />
-        <!-- End Desktop -->
+        <!-- End Mobile -->
         <!-- Desktop: hidden for tailwindcss sizes up to md -->
         <ImageMod
           src={src ? src : logo}
