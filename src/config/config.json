@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Pavement Maintenace",
+    "title": "Pavement Maintenance",
     "base_url": "https://pavementmen.com/",
     "base_path": "/",
     "trailing_slash": true,
@@ -9,7 +9,7 @@
     "footer_logo": "/images/logo.svg",
     "logo_width": "453",
     "logo_height": "67",
-    "logo_text": "Pavement Maintenace"
+    "logo_text": "Pavement Maintenance"
   },
 
   "settings": {
