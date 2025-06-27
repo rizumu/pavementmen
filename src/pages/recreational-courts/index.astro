@@ -1,7 +1,7 @@
 ---
-// import Pride from "@/components/about/Pride.astro";
+import Pride from "@/components/about/Pride.astro";
 import Team from "@/components/about/Team.astro";
-import WhyUs from "@/components/about/WhyUs.astro";
+import Services from "@/components/services/Services.astro";
 import CustomHeading from "@/components/CustomHeading.astro";
 import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -13,7 +13,7 @@ const recreationalcourtsIndex = (await getEntry(
   "recreationalcourts",
   "-index"
 )) as CollectionEntry<"recreationalcourts">;
-const { title, subtitle, description, meta_title, why_us, team } =  // pride,
+const { title, subtitle, description, meta_title, services, team } =  // pride,
   recreationalcourtsIndex.data;
 
 const callToAction = (await getEntry(
@@ -50,9 +50,14 @@ const callToAction = (await getEntry(
     </div>
   </section>
 
-  <WhyUs why_us={why_us} />
+  <Services services={services} />
+
+  <!-- TODO: consider pride component -->
   <!-- <Pride pride={pride} /> -->
+
+  <!-- TODO: consider team component -->
   {team.enable && <Team team={team} />}
 
   <CallToAction cta={callToAction.data} />
+
 </Base>

@@ -8,7 +8,7 @@ const parkinglotsCollection = defineCollection({
     meta_title: z.string().optional(),
     description: z.string().optional(),
     subtitle: z.string().optional(),
-    why_us: z.array(
+    services: z.array(
       z.object({
         title: z.string().optional(),
         content: z.string().optional(),
@@ -55,7 +55,7 @@ const recreationalcourtsCollection = defineCollection({
     meta_title: z.string().optional(),
     description: z.string().optional(),
     subtitle: z.string().optional(),
-    why_us: z.array(
+    services: z.array(
       z.object({
         title: z.string().optional(),
         content: z.string().optional(),
