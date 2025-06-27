@@ -58,5 +58,5 @@ button {
 }
 
 br {
-  @apply hidden lg:block;
+  @apply block;
 }
