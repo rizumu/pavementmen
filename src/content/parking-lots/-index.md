@@ -6,6 +6,7 @@ subtitle: "PARKING LOTS"
 
 why_us:
   - title: "Sealcoating"
+    subtitle: ""
     content: "
 Pavement Maintenance Services will expertly evaluate your pavement and recommend treatment to improve the appearance and increase its lifetime.
 
@@ -26,6 +27,7 @@ Our attention to detail and commitment to excellence will leave you with a clean
     overlay_image: "/images/parking-lots/overlay.png"
 
   - title: "Crack Repair"
+    subtitle: ""
     content: "
 Pavement Maintenance Services will evaluate the cause and state of pavement cracks. Where repair is reasonable, we will propose a repair. Usually this involves cleaning, drying, grinding/routing to widen the crack, removing dust, and applying sealant. Using a high grade, hot applied rubberized sealant, crack filling is the first step in extending the life of your blacktop surfaces. We provide clean, professional work that restores integrity to your blacktop surface that adheres to the surrounding pavement to keep water out.
 
@@ -42,6 +44,7 @@ Crack repairs significantly protects pavement and extends its lifetime cost effe
     overlay_image: "/images/parking-lots/overlay.png"
 
   - title: "Blacktop Repair"
+    subtitle: ""
     content: "
 Whether it’s areas of spider cracks, potholes, depressions, damaged, or disintegrated areas, we specialize in the restoration of your parking lots and driveways. A Pavement Maintenance Services representative will evaluate your pavement and propose an appropriate solution.
 
@@ -58,6 +61,7 @@ Combining the proper materials and application to your needs, we will develop a 
     overlay_image: "/images/parking-lots/overlay.png"
 
   - title: "Striping and Traffic Controls"
+    subtitle: ""
     content: "
 We will design, layout, and paint new parking stripes, traffic lines, numbers, handicap symbols, and other specialized markings on your blacktop. Paint can include highly reflective materials where night visibility is a priority.
 

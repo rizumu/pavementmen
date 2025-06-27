@@ -13,11 +13,31 @@ const { why_us } = Astro.props;
 
 {
   why_us.map((v, i: number) => (
-    <section class="section pt-0">
+    <section class="section max-md:py-6 lg:pt-0">
       <div class="container">
-        <div class="row gy-5 justify-center md:justify-between items-center">
-          <div
-            class={`col-12 md:col-6 md:w-[44%] ${i % 2 !== 0 ? "order-2 md:order-1" : ""}`}>
+
+        <div class="row gy-3 justify-center md:justify-between items-center">
+
+          <!-- Dynamic device switch: hidden for tailwindcss sizes lg and greater -->
+          {v.subtitle && (
+            <p
+              class="text-primary text-balance text-center md:text-left lg:hidden text-base-sm"
+              set:html={markdownify(v.subtitle)}
+              data-aos="fade-up-sm"
+            />
+          )}
+          {v.title && (
+            <CustomHeading
+              as="h2"
+              text={v.title}
+              class="text-h3-sm lg:text-h2-sm text-balance text-center md:text-left lg:hidden"
+              dataAos="fade-up-sm"
+              dataAosDelay="60"
+            />
+          )}
+          <!-- End Switch -->
+
+          <div class={`col-12 md:col-6 md:w-[44%] ${i % 2 !== 0 ? "lg:order-2 lg:order-1" : ""}`}>
             <div class="relative">
               <ImageMod
                 class="rounded-lg mx-auto w-full aspect-square"
@@ -27,6 +47,7 @@ const { why_us } = Astro.props;
                 height={585}
                 data_aos="fade-right-sm"
               />
+              <!-- TODO: reconsider overlay
               <!-- {v.overlay_image && ( -->
               <!--   <ImageMod -->
               <!--     class="rounded-lg absolute bottom-6 right-6 w-2/5" -->
@@ -41,11 +62,12 @@ const { why_us } = Astro.props;
             </div>
           </div>
 
-          <div
-            class={`col-12 md:col-6 md:w-[53%] xl:w-[42%] ${i % 2 === 0 ? "order-1 md:order-2" : ""}`}>
+          <div class={`col-12 md:col-6 md:w-[53%] xl:w-[42%] ${i % 2 === 0 ? "lg:order-1 lg:order-2" : ""}`}>
+
+            <!-- Dynamic device switch: hidden for tailwindcss sizes up to md -->
             {v.subtitle && (
               <p
-                class="text-primary text-balance text-center md:text-left text-base-sm mb-6"
+                class="text-primary text-balance text-center md:text-left text-base-sm mb-6 max-md:hidden"
                 set:html={markdownify(v.subtitle)}
                 data-aos="fade-up-sm"
               />
@@ -54,11 +76,13 @@ const { why_us } = Astro.props;
               <CustomHeading
                 as="h2"
                 text={v.title}
-                class="text-h3-sm lg:text-h2-sm text-balance mb-6 text-center md:text-left"
+                class="text-h3-sm lg:text-h2-sm text-balance mb-6 text-center md:text-left max-md:hidden"
                 dataAos="fade-up-sm"
                 dataAosDelay="60"
               />
             )}
+            <!-- End switch -->
+
             {v.content && (
               <p
                 class="mb-10 text-balance text-center md:text-left"
